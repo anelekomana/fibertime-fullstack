@@ -1,0 +1,102 @@
+.conatiner {
+    min-height: 100vh;
+    background: #f7f9f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.otpCard {
+    margin: 0 auto;
+    margin-top: 48px;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 410px;
+}
+
+.otpHeading {
+    font-weight: 700;
+    font-size: 1.45rem;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.otpSubheading {
+    font-size: 1.1rem;
+    color: #000;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.otpForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.otpInputRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 9px;
+    border: 1.5px solid #e5e5e5;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+    height: 56px;
+    width: 100%;
+    margin-bottom: 6px;
+    gap: 8px;
+}
+
+.otpInput {
+    width: 38px;
+    height: 38px;
+    margin: 0 2px;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    color: #000;
+    text-align: center;
+    background: transparent;
+}
+
+.otpInput:focus {
+    border-bottom: 2px solid #ffe74c;
+    background: #fffde7;
+}
+
+.otpButton {
+    width: 100%;
+    height: 54px;
+    background: #ffe74c;
+    color: #000;
+    border: none;
+    border-radius: 9px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.otpButton:active {
+    background: #ffe200;
+}
+
+.otpError {
+    color: #e53935;
+    font-size: 1rem;
+    margin-top: 8px;
+    text-align: center;
+}

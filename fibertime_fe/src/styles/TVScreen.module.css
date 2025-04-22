@@ -1,0 +1,89 @@
+.container {
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: repeating-linear-gradient(
+      to right,
+      #00e6ff 0 20%,
+      #ffe74c 20% 40%,
+      #00e6ff 40% 60%,
+      #ffe74c 60% 80%,
+      #00e6ff 80% 100%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .centerBox {
+    background: #fff;
+    border-radius: 20px;
+    padding: 40px 32px 32px 32px;
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 16px;
+    background: #ffe74c;
+    padding: 8px 32px;
+    border-radius: 16px;
+    letter-spacing: 1px;
+  }
+  
+  .instructions {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000;
+    margin-bottom: 28px;
+    font-weight: 500;
+  }
+
+  .error {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #ee4b2b;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+  
+  .codeRow {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 32px;
+  }
+  
+  .codeBox {
+    width: 90px;
+    height: 90px;
+    background: #ffe74c;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.7rem;
+    font-weight: 700;
+    color: #000;
+  }
+  
+  .help {
+    font-size: 1.1rem;
+    color: #000;
+    margin-top: 12px;
+    text-align: center;
+  }
+  
+  .whatsapp {
+    font-weight: 700;
+  }
+  
